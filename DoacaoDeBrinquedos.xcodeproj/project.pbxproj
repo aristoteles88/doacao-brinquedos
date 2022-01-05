@@ -16,6 +16,7 @@
 		BDEE9FA32783740B0015A932 /* DoacaoDeBrinquedosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FA22783740B0015A932 /* DoacaoDeBrinquedosTests.swift */; };
 		BDEE9FAD2783740B0015A932 /* DoacaoDeBrinquedosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FAC2783740B0015A932 /* DoacaoDeBrinquedosUITests.swift */; };
 		BDEE9FAF2783740B0015A932 /* DoacaoDeBrinquedosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FAE2783740B0015A932 /* DoacaoDeBrinquedosUITestsLaunchTests.swift */; };
+		BDEE9FD6278659740015A932 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BDEE9FD5278659740015A932 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEE9FD6278659740015A932 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = DoacaoDeBrinquedos;
+			packageProductDependencies = (
+				BDEE9FD5278659740015A932 /* FirebaseFirestore */,
+			);
 			productName = DoacaoDeBrinquedos;
 			productReference = BDEE9F88278374070015A932 /* DoacaoDeBrinquedos.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = BDEE9F7F278374070015A932;
+			packageReferences = (
+				BDEE9FD4278659740015A932 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BDEE9F89278374070015A932 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -598,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDEE9FD4278659740015A932 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 8.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDEE9FD5278659740015A932 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDEE9FD4278659740015A932 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDEE9F80278374070015A932 /* Project object */;
 }
