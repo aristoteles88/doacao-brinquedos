@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		BDEE9F8C278374070015A932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9F8B278374070015A932 /* AppDelegate.swift */; };
 		BDEE9F8E278374070015A932 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9F8D278374070015A932 /* SceneDelegate.swift */; };
-		BDEE9F90278374070015A932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9F8F278374070015A932 /* ViewController.swift */; };
+		BDEE9F90278374070015A932 /* ToyFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9F8F278374070015A932 /* ToyFormViewController.swift */; };
 		BDEE9F93278374070015A932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEE9F91278374070015A932 /* Main.storyboard */; };
 		BDEE9F952783740A0015A932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEE9F942783740A0015A932 /* Assets.xcassets */; };
 		BDEE9F982783740A0015A932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEE9F962783740A0015A932 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,10 @@
 		BDEE9FAD2783740B0015A932 /* DoacaoDeBrinquedosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FAC2783740B0015A932 /* DoacaoDeBrinquedosUITests.swift */; };
 		BDEE9FAF2783740B0015A932 /* DoacaoDeBrinquedosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FAE2783740B0015A932 /* DoacaoDeBrinquedosUITestsLaunchTests.swift */; };
 		BDEE9FD6278659740015A932 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BDEE9FD5278659740015A932 /* FirebaseFirestore */; };
+		BDEE9FD82786994C0015A932 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDEE9FD72786994C0015A932 /* GoogleService-Info.plist */; };
+		BDEE9FDA278699FE0015A932 /* ToysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FD9278699FE0015A932 /* ToysTableViewController.swift */; };
+		BDEE9FDC27869A120015A932 /* ToyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FDB27869A120015A932 /* ToyTableViewCell.swift */; };
+		BDEE9FDE27869DAA0015A932 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9FDD27869DAA0015A932 /* Toy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		BDEE9F88278374070015A932 /* DoacaoDeBrinquedos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoacaoDeBrinquedos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEE9F8B278374070015A932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDEE9F8D278374070015A932 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDEE9F8F278374070015A932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDEE9F8F278374070015A932 /* ToyFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyFormViewController.swift; sourceTree = "<group>"; };
 		BDEE9F92278374070015A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDEE9F942783740A0015A932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDEE9F972783740A0015A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +54,10 @@
 		BDEE9FA82783740B0015A932 /* DoacaoDeBrinquedosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoacaoDeBrinquedosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEE9FAC2783740B0015A932 /* DoacaoDeBrinquedosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoacaoDeBrinquedosUITests.swift; sourceTree = "<group>"; };
 		BDEE9FAE2783740B0015A932 /* DoacaoDeBrinquedosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoacaoDeBrinquedosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDEE9FD72786994C0015A932 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDEE9FD9278699FE0015A932 /* ToysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysTableViewController.swift; sourceTree = "<group>"; };
+		BDEE9FDB27869A120015A932 /* ToyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTableViewCell.swift; sourceTree = "<group>"; };
+		BDEE9FDD27869DAA0015A932 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +111,15 @@
 			children = (
 				BDEE9F8B278374070015A932 /* AppDelegate.swift */,
 				BDEE9F8D278374070015A932 /* SceneDelegate.swift */,
-				BDEE9F8F278374070015A932 /* ViewController.swift */,
+				BDEE9F8F278374070015A932 /* ToyFormViewController.swift */,
+				BDEE9FD9278699FE0015A932 /* ToysTableViewController.swift */,
+				BDEE9FDB27869A120015A932 /* ToyTableViewCell.swift */,
 				BDEE9F91278374070015A932 /* Main.storyboard */,
 				BDEE9F942783740A0015A932 /* Assets.xcassets */,
 				BDEE9F962783740A0015A932 /* LaunchScreen.storyboard */,
 				BDEE9F992783740A0015A932 /* Info.plist */,
+				BDEE9FD72786994C0015A932 /* GoogleService-Info.plist */,
+				BDEE9FDD27869DAA0015A932 /* Toy.swift */,
 			);
 			path = DoacaoDeBrinquedos;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 			files = (
 				BDEE9F982783740A0015A932 /* LaunchScreen.storyboard in Resources */,
 				BDEE9F952783740A0015A932 /* Assets.xcassets in Resources */,
+				BDEE9FD82786994C0015A932 /* GoogleService-Info.plist in Resources */,
 				BDEE9F93278374070015A932 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEE9F90278374070015A932 /* ViewController.swift in Sources */,
+				BDEE9FDE27869DAA0015A932 /* Toy.swift in Sources */,
+				BDEE9F90278374070015A932 /* ToyFormViewController.swift in Sources */,
 				BDEE9F8C278374070015A932 /* AppDelegate.swift in Sources */,
+				BDEE9FDA278699FE0015A932 /* ToysTableViewController.swift in Sources */,
+				BDEE9FDC27869A120015A932 /* ToyTableViewCell.swift in Sources */,
 				BDEE9F8E278374070015A932 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
