@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Doação de Brinquedos-->
         <scene sceneID="xBg-C4-ZGk">
             <objects>
                 <tableViewController id="ZR5-mx-cr2" customClass="ToysTableViewController" customModule="DoacaoDeBrinquedos" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="m0J-Tm-7pM" detailTextLabel="4P2-c5-llk" style="IBUITableViewCellStyleValue1" id="cOK-EB-24e" customClass="ToyTableViewCell" customModule="DoacaoDeBrinquedos" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="m0J-Tm-7pM" detailTextLabel="4P2-c5-llk" style="IBUITableViewCellStyleValue1" id="cOK-EB-24e" customClass="ToyTableViewCell" customModule="DoacaoDeBrinquedos" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cOK-EB-24e" id="kqS-h1-lex">
@@ -50,7 +50,7 @@
                             <outlet property="delegate" destination="ZR5-mx-cr2" id="8TQ-XR-xGG"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" largeTitleDisplayMode="always" id="KQN-8a-Giq">
+                    <navigationItem key="navigationItem" title="Doação de Brinquedos" largeTitleDisplayMode="always" id="KQN-8a-Giq">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="7J3-Wb-yW7">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="v99-OQ-C70"/>
@@ -78,7 +78,7 @@
             </objects>
             <point key="canvasLocation" x="-1585" y="126"/>
         </scene>
-        <!--Toy Form View Controller-->
+        <!--Adicionar brinquedo-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ToyFormViewController" customModule="DoacaoDeBrinquedos" customModuleProvider="target" sceneMemberID="viewController">
@@ -153,7 +153,7 @@
                             <constraint firstItem="I7D-lz-Gjt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="a0o-11-nCN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="hP2-Bp-Ed6"/>
+                    <navigationItem key="navigationItem" title="Adicionar brinquedo" largeTitleDisplayMode="never" id="hP2-Bp-Ed6"/>
                     <connections>
                         <outlet property="addEditButton" destination="X58-Qg-lwH" id="GeP-Xi-JEX"/>
                         <outlet property="segmentedControlState" destination="1ZA-ZH-1vP" id="MbR-KM-RrK"/>

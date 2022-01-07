@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Toy {
+class Toy : Codable {
     var id: String?
     var name: String = ""
     var state: Int = 0
@@ -24,5 +24,15 @@ class Toy {
         default:
             return "Precisa de reparos"
         }
+    }
+    
+    func toyData() -> [String: Any] {
+        return [
+            "name": self.name,
+            "state": self.state,
+            "donorName": self.donorName,
+            "address": self.address,
+            "phoneNumber": self.phoneNumber
+        ]
     }
 }
